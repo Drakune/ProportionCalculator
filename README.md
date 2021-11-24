@@ -1,6 +1,4 @@
 # ProportionCalculator
-## Download
-https://www.dropbox.com/sh/g9v6nh9uoajyuk3/AACCet68ELhxfvxZGEEDInrfa?dl=0
 
 ## Description
 Somewhat of a crappy description, but i tried to describe it as good as i could.
