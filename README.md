@@ -1,6 +1,6 @@
 # ProportionCalculator
 
-##Download
+#Download
 https://github.com/Drakune/ProportionCalculator/archive/refs/heads/main.zip
 
 ## Description
