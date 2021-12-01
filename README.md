@@ -1,5 +1,8 @@
 # ProportionCalculator
 
+##Download
+https://github.com/Drakune/ProportionCalculator/archive/refs/heads/main.zip
+
 ## Description
 Somewhat of a crappy description, but i tried to describe it as good as i could.
 
