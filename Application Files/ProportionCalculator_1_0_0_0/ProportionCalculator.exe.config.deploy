@@ -5,7 +5,7 @@
 	<connectionStrings configProtectionProvider="RsaProtectedConfigurationProvider">
   <EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element"
    xmlns="http://www.w3.org/2001/04/xmlenc#">
-   <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+   <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc" />
    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
     <EncryptedKey xmlns="http://www.w3.org/2001/04/xmlenc#">
      <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5" />
@@ -13,12 +13,12 @@
       <KeyName>Rsa Key</KeyName>
      </KeyInfo>
      <CipherData>
-      <CipherValue>WM9XET5Ax/iffzuEL1F5++9nWLNKvfFTop7MK7uWZUrWsa9PMhBqBaw+UBNvTHV6fkR0wSHisNQQOspZnI5dM+Ohp0bG+kt4q+yOGm63B6s8+ivCKmMU+MX9oaFJ4VLrjYdrWl6D4RE7ZaAoi1k1uBrm/JKaeimVqnWnUbXYvqU=</CipherValue>
+      <CipherValue>ZnT9O2T6ehVN1KMiDakMkJ8r2cCpGiJAk/U6Hj6twG4q6DR4TH/ooYnCmilzracgojYrdPSsXHe9PZXTSXpu+Ant3JhgVkHrYJZrgc+RoZneU6CvaiTMDmaC2CrcKhbZNLyJn65NszEGzLtNxZBM/5EsIznVhY/9HTI5/RpCQ7g=</CipherValue>
      </CipherData>
     </EncryptedKey>
    </KeyInfo>
    <CipherData>
-    <CipherValue>7+q6xkf0OSnsEUzSaTsVt2wSnkN6T1kOr/bu7OX2+9/K9w9SnVvBD5CilMjqPtFO5EP/X9hXWWvecHw+WGMvlyF3X+14HDX5Mbwbm9bms/+X/vkEVvn+45TDGuM0cH0koRjCMCScQKJj3ZfCuCzyI7KQ0SOTxDcXY3eKlOfhtVAr4DySsV3/MphWJxRJQNfaYRvSKGLkpJgytucc5TrIy2rSMd19jYz7nmMSw+BTzIbQY1MolNaMpHUb4HQCies7RGvOOhJYuS7RCOKCIJmlOXxgiSo4jOvNt41sbESZo/ZhyXH4K7PapufxsG+ox37PgLEWW8P4qt9k2mLtjnov4FI4lgbwmViYFTi488tnl06GAQLT1WAxDPQmq6VgA5KNec3VYxMKAO8zCKlKqakdqg==</CipherValue>
+    <CipherValue>XjvTAvDLbG0t5DinuwBKLY0dxu5UT+mZ02s7BF1PcWqGwo952YR1BAyErervnYPot3fHGiwwE/IIEP+nKqp6n+70E3DrYQs//3/8U3eE4yeMysEpa8wZIJUlYwCeGt2FpajogNbDj7l7T5AzcziqDzcD4qinQaYcdenGJj1/hXfXR2N9oRyBuBXNcB8gKyJVPrAMt6lGV2Jcg/0Xe97HxfXW2MCBtmIczcJEYr/Eu9hEzjhYy7mai5yjcUJrTkfEFdo5iGQ60PdWHGWQQ4ndMiji0El2CTgD6WViGP1RS3fJi+hCidMcJDmTQO0JeMClUDcKwC6U59P3QnnALUGRdZ3KcXaHwO7gI2H1aH5Gnjvd6KETpeP5+Z+/agS9jvVv+ymSh5NtyR8=</CipherValue>
    </CipherData>
   </EncryptedData>
  </connectionStrings>
