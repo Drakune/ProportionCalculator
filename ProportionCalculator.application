@@ -2,19 +2,19 @@
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <assemblyIdentity name="ProportionCalculator.application" version="1.0.0.0" publicKeyToken="0000000000000000" language="en" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="ProportionCalculator" asmv2:product="ProportionCalculator" xmlns="urn:schemas-microsoft-com:asm.v1" />
-  <deployment install="true" disallowUrlActivation="true" mapFileExtensions="true" trustURLParameters="true" />
+  <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\ProportionCalculator_1_0_0_0\ProportionCalculator.exe.manifest" size="10524">
+    <dependentAssembly dependencyType="install" codebase="ProportionCalculator.exe.manifest" size="11806">
       <assemblyIdentity name="ProportionCalculator.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="en" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>RbqZbmSiL4+Q6qfRvGm7c8o27TO57yRv3DL6/DWCoCU=</dsig:DigestValue>
+        <dsig:DigestValue>TOe4BveEenoiYsWOBqeUR8vJkMU78YsQjKb/8Mws10c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

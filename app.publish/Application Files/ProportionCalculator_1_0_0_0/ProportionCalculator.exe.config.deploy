@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+    </configSections>
+	<connectionStrings configProtectionProvider="RsaProtectedConfigurationProvider">
+  <EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" xmlns="http://www.w3.org/2001/04/xmlenc#">
+   <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/>
+   <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <EncryptedKey xmlns="http://www.w3.org/2001/04/xmlenc#">
+     <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5"/>
+     <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <KeyName>Rsa Key</KeyName>
+     </KeyInfo>
+     <CipherData>
+      <CipherValue>ZnT9O2T6ehVN1KMiDakMkJ8r2cCpGiJAk/U6Hj6twG4q6DR4TH/ooYnCmilzracgojYrdPSsXHe9PZXTSXpu+Ant3JhgVkHrYJZrgc+RoZneU6CvaiTMDmaC2CrcKhbZNLyJn65NszEGzLtNxZBM/5EsIznVhY/9HTI5/RpCQ7g=</CipherValue>
+     </CipherData>
+    </EncryptedKey>
+   </KeyInfo>
+   <CipherData>
+    <CipherValue>XjvTAvDLbG0t5DinuwBKLY0dxu5UT+mZ02s7BF1PcWqGwo952YR1BAyErervnYPot3fHGiwwE/IIEP+nKqp6n+70E3DrYQs//3/8U3eE4yeMysEpa8wZIJUlYwCeGt2FpajogNbDj7l7T5AzcziqDzcD4qinQaYcdenGJj1/hXfXR2N9oRyBuBXNcB8gKyJVPrAMt6lGV2Jcg/0Xe97HxfXW2MCBtmIczcJEYr/Eu9hEzjhYy7mai5yjcUJrTkfEFdo5iGQ60PdWHGWQQ4ndMiji0El2CTgD6WViGP1RS3fJi+hCidMcJDmTQO0JeMClUDcKwC6U59P3QnnALUGRdZ3KcXaHwO7gI2H1aH5Gnjvd6KETpeP5+Z+/agS9jvVv+ymSh5NtyR8=</CipherValue>
+   </CipherData>
+  </EncryptedData>
+ </connectionStrings>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8"/>
+    </startup>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-5.0.0.0" newVersion="5.0.0.0"/>
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>
