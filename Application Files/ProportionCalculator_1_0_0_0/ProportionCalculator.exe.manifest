@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="ProportionCalculator.exe" version="1.0.0.0" publicKeyToken="122531735cfe4a4e" language="en" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="ProportionCalculator.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="en" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="ratio 256x.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProportionCalculator.exe" size="384992">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProportionCalculator.exe" size="384000">
       <assemblyIdentity name="ProportionCalculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>pEp2Jm+YN4uBQM+qZWkq6vI6NUFY0+lQ5wzo7Y4Yv6s=</dsig:DigestValue>
+        <dsig:DigestValue>5JhR+VbjljjHBgg7+b8L/Gh+Fdl8nFeq1HHhvJRRwY0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -165,4 +165,4 @@
       <dsig:DigestValue>aUL4IxptagFCg1Zym13zBE2C1bCIi+wBJSwhz8kSvck=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=DESKTOP-4STDJHR\chris" issuerKeyHash="e8e93a7408f748bc330c34028c81375ccfeef3a4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YorlNeketkg5494o4oI1RCjdUJUNI02632pY8idOlP0=</DigestValue></Reference></SignedInfo><SignatureValue>vPPTPKdpKC7VqcELrszGHkIKB/xwGeSzzG4Wl4oYCetV9ix7/KgJ3SifUHZFMDF1+k0/TAB8AIBY2m5kH8zZEkCD1JSC2OcRl+zdzgadX+rGsF3zjcjryp4gCzhy8n20e7eFGVj/mBu4VKOW/W+2PAUVRVBl+g1XOVxWMKY6uv4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>v6p+2iXrSPtSR+D4gmXJsH0pU+ITHHwItgcAMGVfK/RiTpVX5CO+XRPcNzyKU0knj8xvntE9tWf4BgP7EaIIDAd3cL+G5rxQ4TG2feC1A0b+RdxWdZ/Rr0pA/YysYLtClBIfusT1qDA2gl1/KSKvTqe7iSxE8n/cueZmkNHSt8k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fd944e27f2586adfba4d230d9550dd28443582e228dee33948b61ee935e58a62" Description="" Url=""><as:assemblyIdentity name="ProportionCalculator.exe" version="1.0.0.0" publicKeyToken="122531735cfe4a4e" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-4STDJHR\chris</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EwypkMqJQXgxQU0RUxmqtSrH4Rl5qYW7xEf0O+4cKik=</DigestValue></Reference></SignedInfo><SignatureValue>VEH3Yr1+FOGPI1grZwNzlbW210ouhSUZxPsSzrUOfhf8HY8pmf3+a0hQ2+sVDz/1IJY05yajwTufJK75n1v4Pkbu9MO+VolGTOGTsE0qUP0+2abadaFCoFAmxpzAOa2Ud5fuSAYiByb0eCjL38wBDQ/nsekH1AGWlkYGGL2Cots=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>v6p+2iXrSPtSR+D4gmXJsH0pU+ITHHwItgcAMGVfK/RiTpVX5CO+XRPcNzyKU0knj8xvntE9tWf4BgP7EaIIDAd3cL+G5rxQ4TG2feC1A0b+RdxWdZ/Rr0pA/YysYLtClBIfusT1qDA2gl1/KSKvTqe7iSxE8n/cueZmkNHSt8k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQHeg5fUpQCbRKYD45S8Z5nTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADQAUwBUAEQASgBIAFIAXABjAGgAcgBpAHMwHhcNMjExMjAxMTUzMjA2WhcNMjIxMjAxMjEzMjA2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADQAUwBUAEQASgBIAFIAXABjAGgAcgBpAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL+qftol60j7Ukfg+IJlybB9KVPiExx8CLYHADBlXyv0Yk6VV+Qjvl0T3Dc8ilNJJ4/Mb57RPbVn+AYD+xGiCAwHd3C/hua8UOExtn3gtQNG/kXcVnWf0a9KQP2MrGC7QpQSH7rE9agwNoJdfykir06nu4ksRPJ/3LnmZpDR0rfJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAPnteOxTILKcB/EnLL9xW3lMjK/+rPty+3Uxt8Phre4ehQvv04MGx/Yi2M9XsG81L2dQR6D52hBUs5ccgT0+lQZvdlNN8RUq3qieiv2F2/G9zOGWDFsR4A9vusYlDUa4Eqf7/YUiXPyisAWnxg7s+TNiBxX2X7zR7SJkKnGOukGQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+</asmv1:assembly>
